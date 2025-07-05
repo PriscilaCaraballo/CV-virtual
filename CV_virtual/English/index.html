@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Priscila Caraballo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="izq">
+            <div class="perfil">
+                <div class="marco">
+                    <img id="foto-perfil" src="../img/Imagen de WhatsApp 2025-06-04 a las 11.09.52_233f67cb.jpg" alt="Profile Photo">
+                </div>
+            </div>
+            <h1>Priscila Caraballo</h1>
+            <h2>Computer Science Student</h2>      
+            <div class="boton-switch">
+                <span class="Idiomas">Spanish</span>
+                <label class="switch-idioma">
+                <input type="checkbox" id="Idioma" aria-label="Cambiar idioma">
+                <span class="slider"></span>
+                </label>
+                <span class="Idiomas">English</span>
+            </div>
+            <section class="contacto">
+                <h3><i class="fas fa-phone"></i> Contact</h3>
+                <p><i class="fas fa-phone"></i> <a href="tel:+58994427703"> +598 94 427 703</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:priscilacaraballo94@gmail.com"> priscilacaraballo94@gmail.com</a></p>
+                <p><i class="fas fa-location-dot"></i> Cerro, Montevideo, Uruguay</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/priscila-caraballo-estudiante-informatica/">LinkedIn: Priscila Caraballo</a></p>
+            </section>
+
+            <section class="sobre-mi">
+                <h3><i class="fas fa-user"></i> About Me</h3>
+                <p>
+                    Computer science student with experience in administrative tasks, especially document organization and data management. I stand out for being proactive, responsible, and having good teamwork skills. I am looking to continue developing my skills in a dynamic and constantly learning work environment.
+                    <br>
+                    <strong>
+                    Health Card: Valid - 04/17/2026 
+                    <br>
+                    Voter ID: BTB 57976
+                    <br>
+                    Date of Birth: 10/27/2006 
+                </strong>
+                </p>
+            </section>
+
+            <section class="habilidades">
+                <h3><i class="fas fa-gear"></i> Skills</h3>
+                <ul>
+                    <li>
+                        <strong> Microsoft 365</strong>
+                        <br> (Word, Excel, PowerPoint, Outlook, OneDrive, Teams)
+                    </li>
+                </ul>
+                <ul class="extra-info" id="extra-info">
+                    <li>
+                        <strong> Web Development</strong>
+                        <br>
+                        <ul>
+                            <li class="skill">
+                                <span class="label">HTML 5</span>
+                                <progress value="60" max="100"></progress>
+                            </li>
+                            <li class="skill">
+                                <span class="label">CSS 3</span>
+                                <progress value="50" max="100"></progress>
+                            </li>
+                            <li class="skill">
+                                <span class="label">JavaScript</span>
+                                <progress value="20" max="100"></progress>
+                            </li>
+                            </ul>
+                    </li>
+                    <li>
+                        <strong> Artificial Intelligence</strong>
+                        <br> (ChatGPT, Gemini, GammaIA, MidJourney, Flux)
+                        <ul>
+                            <li>
+                                <strong>Prompt Engineering</strong>
+                                <br> Prompting skills
+                                <br> Temperature and other parameters
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="boton" onclick="mostrarMas()"><i class="fas fa-list"></i>Show More</button>
+            </section>
+            <a href="../img/Priscila Caraballo.pdf" download class="boton-descarga"><i class="fas fa-download"></i>Download CV</a>
+        </div>
+
+        <div class="der">
+            <section class="experiencia">
+                <h3><i class="fas fa-briefcase"></i> Work Experience</h3>
+                <p><strong>Administrative Tasks - Fixed-term Contract</strong></p>
+                <p><em>ANCAP</em></p>
+                <p class="fecha">05/2024 - 05/2025</p>
+                <ul>
+                    <li>Support in general administrative tasks within the assigned area.</li>
+                    <li>Organization, classification, and filing of physical and digital documents.</li>
+                    <li>Managing and updating databases in Microsoft Excel with a focus on precision and order.</li>
+                    <li>Preparation of internal reports, documents, and forms using Microsoft Word.</li>
+                    <li>Collaboration in internal processes to improve team document access and management.</li>
+                    <li>Labeling for identification and status tracking of laboratory equipment.</li>
+                </ul>
+            </section>
+
+            <section class="referencia">
+                <h3><i class="fas fa-id-badge"></i> References</h3>
+                <p><strong>María Inés Fuertes</strong></p>
+                <p>Lubricants Laboratory Manager / ANCAP</p>
+                <p>Mobile: 099 957 837</p>
+                <p>Phone: 1931 ext. 3844/3503</p>
+                <p>Email: mfuertes@ancap.com.uy</p>
+            </section>
+
+            <section class="formacion">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <ul>
+                    <li>
+                        <strong>Technologist in Computer Science (UTU-Udelar)</strong>
+                        <p class="Fecha">2025 - Ongoing</p>
+                        <p><em>Polo Educativo Tecnológico del Cerro</em></p>
+                    </li>
+                    <li>
+                        <strong>High School in Computer Science</strong>
+                        <p class="Fecha">2022 - 2024</p>
+                        <p><em>Polo Educativo Tecnológico del Cerro</em></p>
+                    </li>
+                    <li>
+                        <strong>Basic Cycle</strong>
+                        <p class="Fecha">2019 - 2021</p>
+                        <p><em>UTU - Technical School Cerro Mtro. Nicasio García</em></p>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="cursos">
+                <h3><i class="fas fa-certificate"></i> Courses / Certifications</h3>
+                <ul>
+                    <li><strong>Digital Skills for Employability</strong>
+                        <p class="Fecha">05/2025</p>
+                        <em>INEFOP</em>
+                    </li>
+                    <li><strong>Artificial Intelligence for Productivity - Advanced Level</strong>
+                        <p class="Fecha">05/2025</p>
+                        <em>INEFOP / EGG</em>
+                    </li>
+                    <li><strong>English A1</strong>
+                        <p class="Fecha">10/2024</p>
+                        <em>Aula Facil</em>
+                    </li>
+                    <li><strong>Artificial Intelligence: Using AI to Improve Productivity</strong>
+                        <p class="Fecha">08/2024</p>
+                        <em>INEFOP / EGG</em>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV- Priscila Caraballo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="izq">
+            <div class="perfil">
+                <div class="marco">
+                    <img id="foto-perfil" src="img/Imagen de WhatsApp 2025-06-04 a las 11.09.52_233f67cb.jpg" alt="Foto de perfil">
+                </div>
+            </div>
+            <h1>Priscila Caraballo</h1>
+            <h2>Estudiante de informatica</h2>
+            <div class="boton-switch">
+            <span class="Idiomas">Español</span>
+            <label class="switch-idioma">
+            <input type="checkbox" id="Idioma" aria-label="Cambiar idioma">
+            <span class="slider"></span>
+            </label>
+            <span class="Idiomas">Inglés</span>
+            </div>
+
+            <section class="contacto">
+                <h3><i class="fas fa-phone"></i> Contacto</h3>
+                <p><i class="fas fa-phone"></i> <a href="tel:+58994427703"> +598 94 427 703</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:priscilacaraballo94@gmail.com"> priscilacaraballo94@gmail.com</a></p>
+                <p><i class="fas fa-location-dot"></i> Cerro, Montevideo, Uruguay</p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/priscila-caraballo-estudiante-informatica/">LinkedIn: Priscila Caraballo</a></p>
+            </section>
+
+            <section class="sobre-mi">
+                <h3><i class="fas fa-user"></i> Sobre mí</h3>
+                <p>
+                    Estudiante de Informática con experiencia en tareas administrativas, especialmente en organización de documentación y gestión de datos. Me destaco por ser una persona proactiva, responsable y con buenas habilidades para el trabajo en equipo. Busco seguir
+                    desarrollando mis competencias en un entorno laboral dinámico y de aprendizaje constante.
+                    <br>
+                    <strong>
+                    Carne de Salud: Vigente - 17/4/2026 
+                    <br>
+                    Credencial Cívica:  BTB 57976
+                    <br>
+                    Fecha de nacimiento: 27/10/2006 
+                </strong>
+                </p>
+
+            </section>
+
+            <section class="habilidades">
+                <h3><i class="fas fa-gear"></i> Habilidades</h3>
+                <ul>
+                    <li>
+                        <strong> Microsoft 365</strong>
+                        <br> (Word, Excel, PowerPoint, Outlook, OneDrive, Teams)
+                    </li>
+                </ul>
+                <ul class="extra-info" id="extra-info">
+                    <li >
+                        <strong> Desarrollo web</strong>
+                        <br> 
+                    <ul>
+                        <li class="skill">
+                            <span class="label">HTML 5</span>
+                            <progress value="60" max="100"></progress>
+                        </li>
+                        <li class="skill">
+                            <span class="label">CSS 3</span>
+                            <progress value="50" max="100"></progress>
+                        </li>
+                        <li class="skill">
+                            <span class="label">JavaScript</span>
+                            <progress value="20" max="100"></progress>
+                        </li>
+                        </ul>
+
+                    </li>
+                    <li>
+                        <strong> Inteligencia artificial </strong>
+                        <br> (ChatGPT, Gemini, GammaIA, MidJourney, Flux,)
+                        <ul>
+                            <li>
+                                <strong>Ingenieria de prompts</strong>
+                                <br> Habilidades de prompting
+                                <br> Temperatura y otros parametros
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <button class="boton" onclick="mostrarMas()" id="toggleButton">
+                     <i class="fas fa-list"></i> <span id="toggleText">Mostrar más</span>
+                </button>
+            </section>
+            <a href="img/Priscila Caraballo.pdf" download class="boton-descarga" ><i class="fas fa-download"></i>Descargar CV</a>
+        </div>
+
+        <div class="der">
+            <section class="experiencia">
+                <h3><i class="fas fa-briefcase"></i> Experiencia</h3>
+                <p><strong>Tareas Administrativas - Contrato a termino </strong>
+                </p>
+                <p><em>ANCAP</em>
+                </p>
+                <p class="fecha">05/2024 - 05/2025</p>
+                <ul>
+                    <li>Apoyo en tareas administrativas generales dentro del área asignada.</li>
+                    <li>Organización, clasificación y archivo de documentos físicos y digitales.</li>
+                    <li>Manejo y actualización de bases de datos en Microsoft Excel con foco en precisión y orden.</li>
+                    <li>Elaboración de reportes, documentos y formularios internos utilizando Microsoft Word.</li>
+                    <li>Colaboración en procesos internos para mejorar el acceso y la gestión documental del equipo.</li>
+                    <li>Etiquetado para la identificación y estados de equipos del laboratorio.</li>
+                </ul>
+            </section>
+
+            <section class="referencia">
+                <h3><i class="fas fa-id-badge"></i> Referencias Laborales</h3>
+                <p><strong>María Inés Fuertes</strong></p>
+                <p>Jefe de laboratorio de lubricantes / ANCAP</p>
+                <p>Cel. 99 957 837</p>
+                <p>Tel. 1931 int. 3844/3503</p>
+                <p>Email: mfuertes@ancap.com.uy</p>
+            </section>
+
+            <section class="formacion">
+                <h3><i class="fas fa-graduation-cap"></i> Formación académica</h3>
+                <ul>
+                    <li>
+                        <strong>Tecnologo en Informática (UTU-Udelar)</strong>
+                        <p class="Fecha">2025 - En curso</p>
+                        <p><em>Polo Educativo Tecnologico del Cerro</em></p>
+                    </li>
+                    <li>
+                        <strong>Bachillerato de informática</strong>
+                        <p class="Fecha">2022 - 2024</p>
+                        <p><em>Polo Educativo Tecnologico del Cerro</em></p>
+                    </li>
+                    <li>
+                        <strong>Ciclo Basico</strong>
+                        <p class="Fecha">2019 - 2021</p>
+                        <p><em>UTU- Escuela Técnica Cerro Mtro. Nicasio García</em></p>
+                    </li>
+                </ul>
+            </section>
+
+
+            <section class="cursos">
+                <h3><i class="fas fa-certificate"></i> Cursos / Certificaciones</h3>
+                <ul>
+                    <li><strong>Habilidades digitales para la empleabilidad </strong>
+                        <p class="Fecha">05/ 2025</p>
+                        <em>INEFOP</em>
+                    </li>
+                    <li><strong>Inteligencia artificial para la productividad - Nivel Avanzado</strong>
+                        <p class="Fecha">05/ 2025</p>
+                        <em>INEFOP/EGG</em>
+                    </li>
+                    <li><strong>inglés A1</strong>
+                        <p class="Fecha">10/ 2024</p>
+                        <em>Aula Facil</em>
+                    </li>
+                    <li><strong>Inteligencia artificial: Uso de IA para mejorar la productividad</strong>
+                        <p class="Fecha">08/ 2024</p>
+                        <em>INEFOP/EGG</em>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
