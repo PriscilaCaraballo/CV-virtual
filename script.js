@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () =>
 
 // Marcar el checkbox si estás en la página en inglés
     window.addEventListener("DOMContentLoaded", () => {
-        if (location.href.includes("/English/")) {
+        if (location.href.includes("English/")) {
             document.getElementById("Idioma").checked = true;
         }
     });
