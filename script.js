@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () =>
     cambioIdioma.addEventListener("change", function () {
         if (cambioIdioma.checked) {
             // Ir a la versión en inglés
-            location.href = "/CV-virtual/English/index.html"";
+            location.href = "/CV-virtual/English/index.html";
         } else {
             // Ir a la versión en español
             location.href = "/CV-virtual/index.html";
